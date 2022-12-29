@@ -28,10 +28,16 @@ public class Main {
             case 1 -> {
                 System.out.println("Good! How many miles did you drive today?");
                 miles = scanner.nextDouble();
+                kilometres = convertMilesToKilometres(miles);
+                System.out.println("You drove " + miles + " in miles or " + kilometres + " in kilometres");
+                scanner.close();
             }
             case 2 -> {
                 System.out.println("Good! How many kilometers did you drive today?");
                 kilometres = scanner.nextDouble();
+                miles = convertKilometresToMiles(kilometres);
+                System.out.println("You drove " + kilometres + " in kilometres or " + miles + " in miles");
+                scanner.close();
             }
             default -> {
                 System.out.println("Wrong input! Try again...");
