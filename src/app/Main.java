@@ -16,7 +16,7 @@ public class Main {
     public static void receiveInfo() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("""
-                Version 1.0
+                Version 1.2
                 Hello! I convert kilometres
                 into miles and vice-versa.
                 What would you like to do today?
