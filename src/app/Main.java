@@ -3,7 +3,7 @@ package app;
 public class Main {
     public static void main(String[] args) {
         System.out.println("""
-                Version 1.0
+                Version 1.1
                 Hello! I convert kilometres
                 into miles and vice-versa.
                 What would you like to do today?
