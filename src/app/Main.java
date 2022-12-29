@@ -7,6 +7,8 @@ public class Main {
 
     static double kilometres;
 
+    static double miles;
+
     public static void main(String[] args) {
         receiveInfo();
     }
@@ -22,6 +24,11 @@ public class Main {
                 2 - convert km into miles""");
         menuOption = scanner.nextInt();
     }
+
+    private static double convertMilesToKms(double miles) {
+        return miles * 1.60934;
+    }
+
     private static double convertKilometresToMiles(double kilometres) {
         return kilometres / 1.60934;
     }
